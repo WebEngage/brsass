@@ -1,0 +1,27 @@
+{
+  "name": "brsass",
+  "version": "0.0.1",
+  "description": "Yet another Browserify transform for Sass",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebEngage/brsass"
+  },
+  "keywords": [
+    "browserify",
+    "scss",
+    "sass"
+  ],
+  "author": "WebEngage",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/WebEngage/brsass/issues"
+  },
+  "homepage": "https://github.com/WebEngage/brsass#readme",
+  "dependencies": {
+    "clean-css": "^3.4.10",
+    "node-sass": "^3.4.2",
+    "through2": "^2.0.1"
+  }
+}
