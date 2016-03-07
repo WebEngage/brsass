@@ -46,9 +46,9 @@ module.exports = function (file, options) {
                 }
 
                 var cleanOptions = {
-                    keepSpecialComments: 0,
-                    processImport: true,
-                    processImportFrom: ['local']
+                    keepSpecialComments : 0,
+                    processImport       : true,
+                    processImportFrom   : ['local']
                 };
 
                 if(options.sourcemaps) {
